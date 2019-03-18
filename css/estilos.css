@@ -1,0 +1,298 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font: normal 14px Georgia, "Times New Roman", Times, serif;
+}
+/*cuerpo*/
+body{
+	width: 100%;
+	height: 900px;
+	background:#FFFF;
+	
+}
+/* clases especiales*/
+.borde{
+	/*border: 1px solid gray;*/
+}
+.titulo{
+	width: 100%;
+	font-size: 175%;
+	height: 70px;
+	background:#A8E1BB;
+	text-align: center;
+	color: #080808;
+	
+}.redondeo-img{
+	border-radius: 50%;
+	border: 2px solid #A8E1BB;
+}
+.alin-der{
+	text-align: right;
+}
+/* Contenedor*/
+.contenedor{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+/* navegador.*/
+nav{
+	width: 85%;
+	max-width: 1280px;
+	height: 75px;
+	background:#A8E1BB;
+	position: fixed;
+}
+nav ul{
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	width: 130px;
+	text-align: center;
+}
+nav ul li:hover ul{
+	display: block;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	padding: 24px 0;
+	
+}
+nav ul li a:hover{
+	background: rgba(0,0,0,0.5);	
+}
+nav ul li ul{
+	display: none;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 3px;
+    background:#A8E1BB;
+}
+.logo img{
+	width: auto;
+	height: 100%;
+}
+.navegacion{
+	width: 65%;
+    height: 100%;
+    background:#A8E1BB;
+    float: left;
+    text-align: right;
+}
+.ingreso{
+	width: 15%;
+    height: 100%;
+    float: left;
+}
+.ingreso ul li{
+	width: 100%;
+	background:#A8E1BB;
+	border: 0px solid black;
+}
+/* encabezado*/
+header{
+	width: 100%;
+	height: 800px;
+	color: #A8E1BB;
+
+	background-image: url('../SI/img/Fondo-2-1.jpg');
+	background-size: 100% 100%;
+	font-size: larger;
+	margin-right: 100%;
+	padding: 75px 0 0 0;
+}
+.opacidad{
+	width: 100%;
+	height: 100%;
+	font-size: 80px;
+	padding: 100px ;
+	color: #1A1616;
+}
+/* portafolio*/
+.titulo-portafolio{
+	width: 100%;
+	height: 70px;
+	background: #768480;
+	}
+.titulo-portafolio h1{
+	text-align: center;
+	margin: 15px auto 0;
+	background:#768480;
+	
+}
+.div-porta p{
+	text-align: justify;
+	margin: 30px 0 0 0;
+
+}
+main#portafolio{
+	width: 100%;
+	height: 900px;
+	
+}
+.div-porta{
+	width: 33.33%;
+	height: 100%;
+	float: left;
+	padding: 40px;
+	text-align: center;
+}
+.div1-1-porta{
+	width: 100%;
+	height: 20%;
+	padding: 15%;
+	font-size: xx-large;
+}
+.div1-2-porta{
+	width: 100%;
+	height: 30%;
+}
+.div1-2-circulo{
+	width: 60%;
+	height: 80%;
+	border-radius: 50%;
+}
+.div1-3-porta{
+	width: 100%;
+	height: 50%;
+	padding: 10%;
+}
+.div1-4-porta{
+	color: #078FEF;
+	text-decoration: underline;
+}
+.div-porta img{
+	width: 200px;
+	height: 200px;
+	margin: 30px 0 0 0;	
+}
+/* Quiénes Somos */
+section.quienes-somos{
+	width: 100%;
+	height: 850px;
+}
+.fila{
+	width: 100%;
+	height: 33.33%;
+}
+.fila img{
+	width: 200px;
+	height: 200px;
+}
+.col-ext{
+	width: 40%;
+	height: 100%;
+	padding: 40px;
+	float: left;	
+}
+.col-ext p{
+	margin: 20px 0 0 0;
+}
+.col-cnt{
+	width: 20%;
+	height: 100%;
+	padding: 30px 0 0 0;
+	float: left;
+	text-align: center;
+}
+/* contactenos*/
+section#contactenos{
+	width: 100%;
+	height: 900px;
+}
+.div-contacto{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.div-arriba{
+	width: 100%;
+	height: 50%;
+}
+.div-abajo{
+	width: 100%;
+	height: 50%;
+}
+.div-contacto-tit{
+	width: 90%;
+	height: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-bottom: 1px solid gray;
+	font-size: xx-large;
+	text-align: center;
+}
+.div-contacto-nom{
+	width: 80%;
+	height: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: larger;
+	margin-top: 10%;
+}
+.div-contacto-nom1{
+	width: 20%;
+	height: 100%;
+	font-size: larger;
+	float: left;
+}
+.div-contacto-nom2{
+	width: 30%;
+	height: 100%;
+	font-size: larger;
+	float: left;
+}
+.div-contacto-cor1{
+	width: 80%;
+	height: 80px;
+	font-size: 30px;
+	float: left;
+}
+.div-contacto-cor2{
+	width: 70%;
+	height: 100%;
+	font-size: larger;
+	float: left;
+}
+.div-contacto-men{
+	width: 80%;
+	height: 20%;
+	font-size: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.div-contacto-env{
+	width: 25%;
+	height: 5%;
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-top: 4%;
+	font-size: 30px;
+	text-align: center;
+}
+/* pie*/
+footer{
+	width: 100%;
+	height: 30px;
+	opacity: 0.8;
+	background: #2c6054;
+	}
+.pie-pagina{
+	float: left;
+	width: 100%;
+	height: 35px;
+	padding-top: 0px;
+}
+.pie-pagina p{
+	text-align: right;
+	margin: 0 25px 0 0;
+	align-content: left;
+}

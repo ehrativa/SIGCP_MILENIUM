@@ -1,0 +1,102 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    background: #C4EDE7; 
+}
+p{
+  column-count: 1;
+  text-align: justify;
+}
+.boton_1{
+    text-decoration: none;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #006505;
+    background-color: #65FBF9;
+    border-radius: 15px;
+    border: 3px double #006505;
+  }
+.boton_1:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+</style>
+.boton_2{
+    text-decoration: none;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #006505;
+    background-color: #65FBF9;
+    border-radius: 15px;
+    border: 3px double #006505;
+  }
+.boton_2:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+</style>
+}
+.boton_3{
+    text-decoration: none;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #006505;
+    background-color: #65FBF9;
+    border-radius: 15px;
+    border: 3px double #006505;
+  }
+.boton_3:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+</style>
+<input type="radio">
+table {
+    font-family: arial, sans-serif;
+    border-right: 15%;
+    width: 100px;
+}
+
+td, th {
+    border: px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+div{
+    text-align: center;
+     font-size:medium;}
+div {
+  padding: 20px
+}
+
+p {
+  margin: 20px;
+  padding: 0;
+  font-weight: bold;
+}
+     

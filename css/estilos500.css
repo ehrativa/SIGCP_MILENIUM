@@ -1,0 +1,59 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', cursive;
+}
+/* Clases especiales*/
+.borde{
+	/*border: 1px solid #968E8E;*/
+}
+.titulo{
+	width: 100%;
+ 	height: 20px;
+ 	text-align: center;
+}
+/* Botones Pruebas.*/
+/*diseño boton retum*/
+.ingreso{
+	width: 100%;
+	max-width: 100%;
+	position: fixed;
+	text-align: center;
+}
+.ingreso ul{
+	list-style-type: none;
+}
+.ingreso ul li{
+	width: 100%;
+	width: 130px;
+	opacity: 0.8;
+	background:#2c6054;
+	display: inline-block;
+	/*position: fixed;*/
+}
+.ingreso ul li a{
+	display: inline-block;
+	width: 130px;
+}
+
+/*estilo error 500 */
+ h2,h3,h4,p{
+ 	margin: 50px auto 50px auto;
+	text-align: center;
+	padding: 30px;
+} 
+h2{
+	font-size: 40px;
+	color: black;
+}
+p{
+	font-size: 50px;
+	text-align: center;
+	color: #BA2626;
+}
+body{
+	background-image: url("../img/vasopensil.jpg");
+	background-size: 85% 85%;
+	background-attachment: fixed;
+}

@@ -1,0 +1,65 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', cursive;
+}
+/* Clases especiales*/
+.borde{
+	/*border: 1px solid #968E8E;*/
+}
+.titulo{
+	width: 100%;
+ 	height: 100px;
+ 	background-color: black;
+}
+/*diseño boton retum*/
+.ingreso{
+	width: 100%;
+	max-width: 100%;
+	position: fixed;
+	text-align: center;
+}
+.ingreso ul{
+	list-style-type: none;
+}
+.ingreso ul li{
+	width: 100%;
+	width: 130px;
+	opacity: 0.8;
+	background:#2c6054;
+	display: inline-block;
+	/*position: fixed;*/
+}
+.ingreso ul li a{
+	display: inline-block;
+	width: 130px;
+}
+
+
+
+/*estilo error 404 */
+ h2,h3,h4,p{
+ 	margin: 100px auto 100px auto;
+	text-align: center;
+	font-language-override: 
+	padding: 300px;
+} 
+h2{
+	font-size: 50px;
+	color: #EF0C0C;
+}
+h3{
+	font-size: 50px;
+	text-align: center;
+}
+p{
+	font-size: 30px;
+	text-align: center;
+	color: #0F0404;
+}
+body{
+	background-image: url('../SI/img/Fondo-herramienta-2.jpg');
+	background-size: 80% 80%;
+	background-attachment: fixed;
+}

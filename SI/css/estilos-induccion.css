@@ -1,0 +1,40 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+width: 100%;
+text-align: center;
+padding: 8px;
+background: #C4EDE7; 
+margin: 40px; 
+}
+table {
+font-family: arial, sans-serif;
+border-right: 15%;
+width: 100px;
+}
+
+td, th {
+border: px solid #dddddd;
+text-align: center;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}
+div{
+padding: 400px; 
+margin: 30px;
+text-align: center;
+ font-size:medium;
+}
+div {
+padding: 400px; 
+margin: 30px;
+padding: 0;
+font-weight: bold;
+text-align: justify-all;  
+}
